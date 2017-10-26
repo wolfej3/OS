@@ -106,8 +106,8 @@ public class OperatingSystems {
         }
     }
 
-    public static void runFirst(Job n) {
-       
+    public static Job runFirst(Job n) {
+       return n;
     }
 
     public static Job runSecond(Job n) {
